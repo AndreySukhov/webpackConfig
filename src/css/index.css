@@ -1,0 +1,11 @@
+@import "variables/colors.css";
+@import "components/buttons.css";
+
+body {
+  background: #eeeeee;
+}
+
+.ctn {
+  display: flex;
+  flex-flow: row wrap;
+}

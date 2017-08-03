@@ -1,0 +1,7 @@
+.btn {
+  background: #fbbf34;
+  color: #10496a; 
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid var(--color-blue);
+}
