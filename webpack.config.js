@@ -29,6 +29,14 @@ const config = {
           'css-loader' ,
           'postcss-loader'
         ])
+      },{
+        test: /\.(jpe?g|png|svg|gif)$/,
+        use: [
+          {
+            loader: 'url-loader',
+            options: {limit: 40}
+          }
+        ]
       }
     ]
   }, plugins: [
